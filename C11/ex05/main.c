@@ -6,7 +6,7 @@
 /*   By: dgeum <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/19 23:55:01 by dgeum             #+#    #+#             */
-/*   Updated: 2024/07/20 09:46:40 by dgeum            ###   ########.fr       */
+/*   Updated: 2024/07/21 23:20:39 by dgeum            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_putnbr(int input)
+void	ft_putnbr(long long input)
 {
 	long long	num;
 
